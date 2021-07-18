@@ -1,0 +1,14 @@
+[package]
+name = "sparse-file-test"
+version = "0.1.0"
+authors = ["Rüdiger Klaehn <rklaehn@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.42"
+hole-punch = "0.0.3"
+memmap = "0.7.0"
+nix = "0.22.0"
+range-collections = "0.1.1"
